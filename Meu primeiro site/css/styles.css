@@ -59,6 +59,21 @@ hr {
 	margin: 20px auto;
 }
 
+p {
+	line-height: 21.82px;
+	padding: 0 10px;
+}
+
+.section__titulo {
+	text-align: center;
+	font-size: 48px;
+	margin-bottom: 18px;
+}
+
+img {
+	display: block; /* evita alguns problemas que podem acontecer com outros navegadores*/
+	max-width: 100%; /* faz com que a imagem fica responsiva */
+}
 
 /**********************************/
 /* 2. Menu
@@ -91,6 +106,10 @@ hr {
 	margin: 0 5px;
 }
 
+/**********************************/
+/* 3. Header
+/**********************************/
+
 .intro {
 	font-weight: bold;
 	font-size: 3rem;
@@ -98,21 +117,82 @@ hr {
 	margin: 0 auto;
 	padding: 25px 0;
 }
-/**********************************/
-/* 3. Header
-/**********************************/
 
 /**********************************/
 /* 4. Quem somos
 /**********************************/
 
+.somos {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.somos-c {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.somos-c__texto {
+	flex: 6 /* faz com que ocupe um espaço 6x maior do que o da imagem*/ 1 /* faz com que reduza o tamanho para caber no conteiner*/ 160px; /* faz com que o tamanho seja de 160px*/
+	/* é a abreviação de: flex: flex-grow, flex-shrink, flex-basis; */
+
+}
+
+.somos-c__img {
+	flex: 1 /* faz com que ocupe um espaço 1x do texto*/ 1 /* faz com que reduza o tamanho para caber no conteiner*/ 350px; /* faz com que o tamanho seja de 350px*/
+	/* é a abreviação de: flex: flex-grow, flex-shrink, flex-basis; */
+}
+
+
 /**********************************/
 /* 5. Nossos cursos
 /**********************************/
 
+.cursos {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.cursos-c {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+
+.curso {
+	width: 280px;
+	margin: 0 20px;
+}
+
+.curso__titulo {
+	font-size: 1.5rem;
+	text-align: center;
+	margin: 10px 0 5px 0;
+}
 /**********************************/
 /* 6. Planos
 /**********************************/
+.planos {
+	width: 960px;
+	margin: 0 auto;
+	
+}
+
+.planos-c {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+
+.plano {
+	width: 280px;
+	margin: 0 auto;
+}
+
+
 
 /**********************************/
 /* 7. Vantagens
