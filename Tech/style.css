@@ -1,0 +1,188 @@
+@charset "utf-8";
+*,
+*::before,
+*::after {
+box-sizing: border-box; 
+
+}
+
+/**********************************/
+/* 0. Variáveis
+/**********************************/
+
+:root {
+	--ff-primary: "Nunito", /* cores que serão usadas no projeto */
+    --clr: #E372F2;
+	--clr: #9407F2;
+	--clr: #503BD9;
+	--clr: #4A5FD9;
+    --clr--withe: #DADADA;
+}
+
+/**********************************/
+/* 1. Estilos gerais
+/**********************************/
+
+body {
+    font-family: "Nunito";
+	margin: 0;
+	border: 0;
+} 
+*
+a:hover, /* para deixar os links sem estilo e preto */
+a:active,
+a:link,
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+hr {
+	border: none;
+	background-color: #503BD9;
+	height: 2px;
+	width: 140px;
+	margin: 20px auto;
+} 
+
+p {
+    line-height: 21.82px; /* para alterar a altura das linhas */
+	padding: 0 10px /* para as linhas não ficarem grudadas nas de cima/baixo*/
+}
+
+img {
+	display: flex; /* evita alguns problemas que podem acontecer com outros navegadores*/
+	max-width: 100%; /* faz com que a imagem fica responsiva */
+
+}
+
+.menu-bg {
+    background: linear-gradient( to top, #ffffff, #503bd9a6);
+    background-repeat: no-repeat;
+	padding: 5px;
+	
+}
+
+#logo {
+	border-radius: 50%;
+	box-shadow:-3px -1px 6px 0px #37005c46;
+	
+}
+
+.menu {
+    display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 960px;
+	margin: 0 auto;
+	flex-wrap: wrap;
+    
+}
+
+.section__titulos {
+    text-align: center; /*para deixar as palavras no centro */
+	font-size: 28px; /* tamanho da fonte de todos os títulos*/
+	margin-bottom: 18px; /* Margem de baixo, para afastar do conteúdo/imgs */
+}
+
+.nav a{
+	margin-left: 25px; 
+	text-align: center;
+	font-weight: bold;
+}
+
+.nav a:hover {
+	color: #503BD9;
+	
+}
+
+/*2*/
+
+.conteudo1 {
+	margin: 0 auto;
+	max-width: 960px;
+
+}
+
+.noticia__geral1 {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.noticia1 {
+	flex: 6 1 160px;
+	padding: 50px 50px;
+}
+
+.noticia1:hover {
+	background-color: rgba(78, 56, 221, 0.267);
+}
+
+.noticia2:hover {
+	background-color: rgba(78, 56, 221, 0.267);
+}
+
+.img__noticia1 {
+	flex: 1 1 250px;
+}
+
+.conteudo2 {
+	margin: 0 auto;
+	max-width: 960px;
+
+}
+
+.noticia__geral2 {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.noticia2 {
+	flex: 6 1 160px;
+	padding: 50px 50px;
+}
+
+.img__noticia2 {
+	flex: 1 1 250px;
+}
+
+a img:hover {
+	border: solid 3px #9407F2;	
+}
+
+.footer__content {
+	max-width: 960px;
+	margin: 0 auto;
+	align-items: center;
+	text-align: center;
+	align-items: center;
+}
+
+ul {
+	max-width: 960px;
+	margin: 0 auto;
+	align-items: center;
+	text-align: center;
+ 	list-style: none;
+}
+
+li {
+	margin-top: 15px;
+	text-align: center;
+}
+
+.list1 {
+	display: inline-block;
+	margin: 0 auto;
+	padding-bottom: 25px;
+}
+
+.list2 {
+	display: inline-block;
+	margin: 0 auto;
+	padding-bottom: 25px;
+	
+}
+
