@@ -1,0 +1,39 @@
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+table {
+    width: 600px;
+    border-collapse: separate;
+}
+
+th,td {
+    padding: 7px;
+}
+
+th {
+    text-transform: uppercase;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #111;
+    text-align: left;
+    font-size: 90% /*fonte com 90% do seu tamanho original*/;
+    letter-spacing: 0.1em; /* para espaçar as letras um pouco*/
+}
+
+tr.alternado {
+    background-color: #efefef;
+}
+
+td.numero {
+    text-align: right;
+}
+
+tr:hover {
+    background-color: #a5f1ef;
+    
+}
+
+tr:hover #numero {
+    font-weight: bold;
+}
+
