@@ -1,0 +1,14 @@
+.principal {
+    float: left;
+    margin: 0px 0px 20px 195px;
+    width: 270px;
+}
+
+#uma-coluna .principal {
+    margin: 0px 0px 20px;
+    width: 750px;
+}
+
+#duas-colunas .principal {
+    width: 555px;
+}

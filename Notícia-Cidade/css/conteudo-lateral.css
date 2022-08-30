@@ -1,0 +1,41 @@
+.lateral {
+    float: left;
+    margin: 0 0 20px -750px;
+    width: 180px;
+}
+
+.lateral ul a {
+    border-radius: 8px;
+    font-size: 0.9em;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    margin: 3px;
+    line-height: 30px;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.lateral ul a:hover {
+    background: #f9f9f9 url(../imgs/marcador.png) no-repeat left center;
+    padding-left: 20px; /* para jogar o texto para esquerda e aparece o check*/
+    padding-right: 5px;
+    color: #a1a1a1;
+}
+
+.cadastrar-input {
+    cursor: pointer;
+    margin-top: 5px;
+    width: 80px;
+    border: 2px solid #870529;
+    padding: 5px;
+    background-color: #b10333;
+    color: #fff;
+}
+
+.email-input {
+    padding: 5px;
+    border-radius: 2px;
+    width: 150px;
+    text-decoration: none;
+    border: 1px solid #294c71;
+}

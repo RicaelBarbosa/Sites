@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home .navegacao-cabecalho a.home-nav,
+.internacional .navegacao-cabecalho a.internacional-nav,
+.economia .navegacao-cabecalho a.economia-nav,
+.saude .navegacao-cabecalho a.saude-nav,
+.ciencia .navegacao-cabecalho a.ciencia-nav,
+.brasil .navegacao-cabecalho a.brasil-nav,
+.fotos .navegacao-cabecalho a.fotos-nav
+{
+    
+    background-color: #d2033e;
+    color: #69001d;
+}

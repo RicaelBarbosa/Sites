@@ -1,0 +1,13 @@
+.container-cabecalho {
+    background: url(../imgs/detalhe-topo.png) no-repeat right top;
+    height: 150px;
+    /* border: 1px solid red; */
+    padding-top: 25px;
+}
+
+.logo-cabecalho {
+    width: 152px;
+    height: 66px;
+    background: url(../imgs/logo.png) no-repeat left center;
+    text-indent: -3000px;
+}

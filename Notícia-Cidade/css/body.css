@@ -1,0 +1,10 @@
+body {
+    background: #fff url(../imgs/fundo.png) repeat-x;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    width: 750px;
+    margin: 0 auto;
+}
+
